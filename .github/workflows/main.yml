@@ -1,10 +1,10 @@
 name: Playwright Tests
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+  schedule:
+    # 0:30 UTC is 6:00 IST
+    - cron: '30 0 * * *'
+  workflow_dispatch: # optional: manual trigger
 
 jobs:
   test:
