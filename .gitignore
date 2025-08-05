@@ -11,7 +11,7 @@ yarn-error.log*
 # Playwright test output
 test-results/
 playwright-report/
-
+s
 # OS generated files
 .DS_Store
 Thumbs.db

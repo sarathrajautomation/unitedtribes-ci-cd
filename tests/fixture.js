@@ -7,7 +7,7 @@ let page;
 export const test = base.extend({
   page: async ({}, use) => {
     if (!browser) {
-      browser = await chromium.launch({ headless: false });
+      browser = await chromium.launch({ headless: true });
       const context = await browser.newContext({
         geolocation: { latitude: 37.7749, longitude: -122.4194 },
         permissions: ['geolocation'],
