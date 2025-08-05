@@ -1,0 +1,20 @@
+{
+  "name": "unitedtribes-ci-cd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "nodemailer": "^7.0.5"
+  }
+}
