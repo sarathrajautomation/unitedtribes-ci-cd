@@ -48,7 +48,7 @@ export async function sendReport() {
 
   const mailOptions = {
     from: 'pkpraveen082@gmail.com',
-    to: 'sarathrajk@techcedence.com, raneeshap@gmail.com, praveenk@techcedence.com, krishnak@techcedence.com',
+    to: 'sarathrajk@techcedence.com',
     subject: 'United Tribes - 📋 Playwright Automated Daily Test Report',
     html: `
       <div style="font-family: Arial, sans-serif; padding: 20px;">
