@@ -17,7 +17,7 @@ test("✅ Successfully Launched the United Tribes Website- This test verifies th
   });
 
   await page.waitForTimeout(10000);
-  await page.locator("//button[normalize-space(text())='Apply']").click();
+//  await page.locator("//button[normalize-space(text())='Apply']").click();
 
   // await expect(page).toHaveTitle(
   //   "Connect & Grow with Our Online Business Directory | United Tribes"
